@@ -9,12 +9,143 @@
   --hero-bg-color:#2F303A;
   --footer-bg-color:#2F303A;
 }
+
+.nav-logotype{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3
+}
+
+.header-logo{
+   color: #000;
+}
 .nav-list{
 margin: 0;
     display: flex;
     flex-wrap: wrap;
 }
     
+.nav-list-link{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #212121;
+}
+
+.nav-list-link:hover{
+  color: var(--hover-text-color);
+}
+
+.contacts-link{
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.02em;
+color: #757575;
+}
+.contacts-link:hover{
+  color: var(--hover-text-color);
+}
+.title{
+  font-family: var(--font-family);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+text-align: center;
+color: #fff;
+}
+.heroSection-button{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 16px;
+line-height: 1.87;
+letter-spacing: 0.06em;
+text-align: center;
+color: #fff;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background: #2196f3;
+}
+
+.features-title{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #212121;
+}
+.features-text{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #757575;
+}
+.headding{
+  font-family: var(--font-family);
+font-weight: 700;
+font-size: 36px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.team-title{
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #212121;
+}
+.team-text{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 16px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #757575;
+}
+.nav-logo{
+font-family: var(--second-family);
+font-weight: 700;
+font-size: 26px;
+letter-spacing: 0.03em;
+color: #2196f3
+}
+.footer-logo{
+     color: #fff;
+}
+.address-item{
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #fff;
+}
+.address-email{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+.address-phone{
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
 .footer{
 background-color:var(--footer-bg-color);
 }
