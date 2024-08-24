@@ -15,6 +15,13 @@ body{
     font-weight: 400;
     font-size: 14px;
 }
+.container{
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin-left: auto;
+margin-right: auto;
+}
 .nav-logotype{
 font-family: var(--second-family);
 font-weight: 700;
@@ -33,9 +40,17 @@ color: #2196f3
 .header{
       display: flex;
     flex-wrap: wrap;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.section{
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .heroSection{
 background-color: var(--hero-bg-color);
+padding-top: 200px;
+padding-bottom: 200px;
 }
 .nav-list-link{
 font-weight: 500;
@@ -105,6 +120,7 @@ font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 color: #2196f3
+
 }
 .footer-logo{
      color: #fff;
@@ -124,6 +140,8 @@ color: rgba(255, 255, 255, 0.6);
 
 .footer{
 background-color:var(--footer-bg-color);
+padding-top: 60px;
+padding-bottom: 60px;
 }
 .address-list{
   color:var(--secondary-text-color);
