@@ -13,6 +13,7 @@ body{
     font-family: var(--font-family);
     letter-spacing: 0.03em;
     font-weight: 400;
+    font-size: 14px;
 }
 .nav-logotype{
 font-family: var(--second-family);
@@ -25,25 +26,28 @@ color: #2196f3
    color: #000;
 }
 .nav-list{
-margin: 0;
     display: flex;
     flex-wrap: wrap;
 }
-    
+     
+.header{
+      display: flex;
+    flex-wrap: wrap;
+}
+.heroSection{
+background-color: var(--hero-bg-color);
+}
 .nav-list-link{
 font-weight: 500;
-font-size: 14px;
 letter-spacing: 0.02em;
 color: #212121;
 }
-
 .nav-list-link:hover{
   color: var(--hover-text-color);
 }
 
 .contacts-link{
 font-weight: 500;
-font-size: 14px;
 letter-spacing: 0.02em;
 color: #757575;
 }
@@ -72,12 +76,10 @@ background: #2196f3;
 
 .features-title{
 font-weight: 700;
-font-size: 14px;
 text-transform: uppercase;
 color: #212121;
 }
 .features-text{
-font-size: 14px;
 line-height: 1.71;
 color: #757575;
 }
@@ -108,17 +110,14 @@ color: #2196f3
      color: #fff;
 }
 .address-item{
-font-size: 14px;
 line-height: 1.71;
 color: #fff;
 }
 .address-email{
-font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 }
 .address-phone{
-font-size: 14px;
 line-height: 1.71;
 color: rgba(255, 255, 255, 0.6);
 }
