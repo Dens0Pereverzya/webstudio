@@ -22,30 +22,51 @@ padding-right: 15px;
 margin-left: auto;
 margin-right: auto;
 }
+.flex{
+  display: flex;
+  column-gap: 50px;
+  align-items: center;
+}
+
 .nav-logotype{
 font-family: var(--second-family);
 font-weight: 700;
 font-size: 26px;
 color: #2196f3
 }
-
+.nav{
+display: flex;
+}
 .header-logo{
    color: #000;
 }
 .nav-list{
+  margin-left: 168px;
     display: flex;
-    flex-wrap: wrap;
+    column-gap: 50px;
 }
-     
+.header-contacts{
+  display: flex;
+column-gap: 50px;
+  margin-left: auto;
+}
 .header{
       display: flex;
     flex-wrap: wrap;
     padding-top: 25px;
     padding-bottom: 25px;
 }
+.services{
+  display: flex;
+  column-gap: 30px;
+}
 .section{
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.team-list{
+  display: flex;
+  column-gap: 30px;
 }
 .heroSection{
 background-color: var(--hero-bg-color);
@@ -60,7 +81,10 @@ color: #212121;
 .nav-list-link:hover{
   color: var(--hover-text-color);
 }
-
+.features-list{
+  display: flex;
+  column-gap: 50px;
+}
 .contacts-link{
 font-weight: 500;
 letter-spacing: 0.02em;
