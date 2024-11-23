@@ -72,6 +72,7 @@ column-gap: 50px;
   margin-left: auto;
 }
 .heroSection{
+background-image: url(../imeges/background-work.png);
 background-color: var(--hero-bg-color);
 padding-top: 200px;
 padding-bottom: 200px;
@@ -112,6 +113,9 @@ margin-right: auto;
 .section{
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.photos-features{
+  margin-bottom: 30px;
 }
 .features-list{
   display: flex;
