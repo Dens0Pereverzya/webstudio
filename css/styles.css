@@ -53,6 +53,9 @@ font-weight: 700;
 font-size: 26px;
 color: #2196f3
 }
+.nav-logo{
+  color: var(--hover-text-color);
+}
 .header-logo{
    color: #000;
 }
@@ -122,6 +125,7 @@ margin-right: auto;
   column-gap: 50px;
 }
 .features-title{
+  margin-top: 30px;
 font-weight: 700;
 text-transform: uppercase;
 color: #212121;
@@ -190,6 +194,9 @@ padding-bottom: 60px;
 }
 .footer-logo{
      color: #fff;
+}
+.address{
+  margin-top: 20px;
 }
 .address-post{
   color:var(--secondary-text-color);
